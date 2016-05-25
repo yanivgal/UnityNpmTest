@@ -1,0 +1,119 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.9.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git+ssh://git@github.com:yanivgal/UnityNpmTest.git',
+1 verbose cli   '--save' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+8 silly fetchOtherPackageData git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+9 silly cache add args [ 'git+ssh://git@github.com:yanivgal/UnityNpmTest.git', null ]
+10 verbose cache add spec git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+ssh://git@github.com:yanivgal/UnityNpmTest.git',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+ssh://git@github.com:yanivgal/UnityNpmTest.git',
+11 silly cache add   spec: 'git+ssh://git@github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:yanivgal/UnityNpmTest.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add      gitUrl: 'git://github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add      shortcut: 'github:yanivgal/UnityNpmTest',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/yanivgal/UnityNpmTest/master/package.json' } }
+12 verbose addRemoteGit caching git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+13 verbose addRemoteGit git+ssh://git@github.com/yanivgal/UnityNpmTest.git is a repository hosted by github
+14 silly tryClone cloning git+ssh://git@github.com/yanivgal/UnityNpmTest.git via git+ssh://git@github.com/yanivgal/UnityNpmTest.git
+15 verbose tryClone git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75 not in flight; caching
+16 verbose correctMkdir /Users/yanivgal/.npm/_git-remotes correctMkdir not in flight; initializing
+17 info git [ 'config', '--get', 'remote.origin.url' ]
+18 silly validateExistingRemote git+ssh://git@github.com/yanivgal/UnityNpmTest.git remote.origin.url: ssh://git@github.com/yanivgal/UnityNpmTest.git
+19 verbose validateExistingRemote git+ssh://git@github.com/yanivgal/UnityNpmTest.git is updating existing cached remote /Users/yanivgal/.npm/_git-remotes/git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75
+20 info git [ 'fetch', '-a', 'origin' ]
+21 verbose updateRemote git fetch -a origin (ssh://git@github.com/yanivgal/UnityNpmTest.git)
+22 verbose correctMkdir /Users/yanivgal/.npm/_git-remotes correctMkdir not in flight; initializing
+23 verbose setPermissions git+ssh://git@github.com/yanivgal/UnityNpmTest.git set permissions on /Users/yanivgal/.npm/_git-remotes/git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75
+24 verbose resolveHead git+ssh://git@github.com/yanivgal/UnityNpmTest.git original treeish: master
+25 info git [ 'rev-list', '-n1', 'master' ]
+26 silly resolveHead git+ssh://git@github.com/yanivgal/UnityNpmTest.git resolved treeish: 527ff2f253f26ede3c3d3846d111153dccfd3c7d
+27 verbose resolveHead git+ssh://git@github.com/yanivgal/UnityNpmTest.git resolved Git URL: git+ssh://git@github.com/yanivgal/UnityNpmTest.git#527ff2f253f26ede3c3d3846d111153dccfd3c7d
+28 silly resolveHead Git working directory: /var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88566-a9a21879/git-cache-f8df4f51/527ff2f253f26ede3c3d3846d111153dccfd3c7d
+29 info git [ 'clone',
+29 info git   '/Users/yanivgal/.npm/_git-remotes/git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75',
+29 info git   '/var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88566-a9a21879/git-cache-f8df4f51/527ff2f253f26ede3c3d3846d111153dccfd3c7d' ]
+30 verbose cloneResolved git+ssh://git@github.com/yanivgal/UnityNpmTest.git clone Cloning into '/var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88566-a9a21879/git-cache-f8df4f51/527ff2f253f26ede3c3d3846d111153dccfd3c7d'...
+30 verbose cloneResolved done.
+31 info git [ 'checkout', '527ff2f253f26ede3c3d3846d111153dccfd3c7d' ]
+32 verbose checkoutTreeish git+ssh://git@github.com/yanivgal/UnityNpmTest.git checkout Note: checking out '527ff2f253f26ede3c3d3846d111153dccfd3c7d'.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+32 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+32 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+32 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish   git checkout -b <new-branch-name>
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish HEAD is now at 527ff2f... added post install script
+33 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+34 verbose updateSubmodules git+ssh://git@github.com/yanivgal/UnityNpmTest.git submodule update
+35 verbose addLocalDirectory /Users/yanivgal/.npm/unitynpmtest/0.0.1/package.tgz not in flight; packing
+36 verbose correctMkdir /Users/yanivgal/.npm correctMkdir not in flight; initializing
+37 verbose tar pack [ '/Users/yanivgal/.npm/unitynpmtest/0.0.1/package.tgz',
+37 verbose tar pack   '/var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88566-a9a21879/git-cache-f8df4f51/527ff2f253f26ede3c3d3846d111153dccfd3c7d' ]
+38 verbose tarball /Users/yanivgal/.npm/unitynpmtest/0.0.1/package.tgz
+39 verbose folder /var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88566-a9a21879/git-cache-f8df4f51/527ff2f253f26ede3c3d3846d111153dccfd3c7d
+40 verbose addLocalTarball adding from inside cache /Users/yanivgal/.npm/unitynpmtest/0.0.1/package.tgz
+41 verbose correctMkdir /Users/yanivgal/.npm correctMkdir not in flight; initializing
+42 verbose addRemoteGit data._from: git+ssh://git@github.com/yanivgal/UnityNpmTest.git
+43 verbose addRemoteGit data._resolved: git+ssh://git@github.com/yanivgal/UnityNpmTest.git#527ff2f253f26ede3c3d3846d111153dccfd3c7d
+44 silly cache afterAdd unitynpmtest@0.0.1
+45 verbose afterAdd /Users/yanivgal/.npm/unitynpmtest/0.0.1/package/package.json not in flight; writing
+46 verbose correctMkdir /Users/yanivgal/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /Users/yanivgal/.npm/unitynpmtest/0.0.1/package/package.json written
+48 silly install normalizeTree
+49 silly loadCurrentTree Finishing
+50 silly loadIdealTree Starting
+51 silly install loadIdealTree
+52 silly cloneCurrentTree Starting
+53 silly install cloneCurrentTreeToIdealTree
+54 silly cloneCurrentTree Finishing
+55 silly loadShrinkwrap Starting
+56 silly install loadShrinkwrap
+57 silly loadShrinkwrap Finishing
+58 silly loadAllDepsIntoIdealTree Starting
+59 silly install loadAllDepsIntoIdealTree
+60 silly rollbackFailedOptional Starting
+61 silly rollbackFailedOptional Finishing
+62 silly runTopLevelLifecycles Starting
+63 silly runTopLevelLifecycles Finishing
+64 silly install printInstalled
+65 verbose stack Error: Refusing to install unitynpmtest as a dependency of itself
+65 verbose stack     at checkSelf (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:53:14)
+65 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+65 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+65 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+65 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/validate-args.js:16:5
+65 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+65 verbose stack     at Array.forEach (native)
+65 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+65 verbose stack     at Array.forEach (native)
+65 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+66 verbose cwd /Users/yanivgal/Unity/UnityNpmTest/scripts
+67 error Darwin 15.4.0
+68 error argv "/usr/local/Cellar/node/5.9.0/bin/node" "/usr/local/bin/npm" "install" "git+ssh://git@github.com:yanivgal/UnityNpmTest.git" "--save"
+69 error node v5.9.0
+70 error npm  v3.7.3
+71 error code ENOSELF
+72 error Refusing to install unitynpmtest as a dependency of itself
+73 error If you need help, you may report this error at:
+73 error     <https://github.com/npm/npm/issues>
+74 verbose exit [ 1, true ]
