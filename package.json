@@ -1,6 +1,6 @@
 {
   "name": "UnitNpmTest",
-  "version": "0.0.1",       <-- Semantic version number
+  "version": "0.0.1",
   "description": "UnitNpmTest Description",
   "main": "index.js",
   "repository": {
