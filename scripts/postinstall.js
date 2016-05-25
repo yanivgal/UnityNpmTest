@@ -14,10 +14,10 @@ mkdirp(dir, function (err) {
   }
 
   // Copy files
-  ncp(src, dir, function (err) {
-    if (err) {
-      console.error(err);
-      process.exit(1);
-    }
-  });
+  // ncp(src, dir, function (err) {
+  //   if (err) {
+  //     console.error(err);
+  //     process.exit(1);
+  //   }
+  // });
 });
