@@ -1,0 +1,200 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.9.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'git+ssh://git@github.com:yanivgal/UnityNpmTest.git',
+1 verbose cli   '--save' ]
+2 info using npm@3.7.3
+3 info using node@v5.9.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+8 silly fetchOtherPackageData git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+9 silly cache add args [ 'git+ssh://git@github.com:yanivgal/UnityNpmTest.git', null ]
+10 verbose cache add spec git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git+ssh://git@github.com:yanivgal/UnityNpmTest.git',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git+ssh://git@github.com:yanivgal/UnityNpmTest.git',
+11 silly cache add   spec: 'git+ssh://git@github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:yanivgal/UnityNpmTest.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add      gitUrl: 'git://github.com/yanivgal/UnityNpmTest.git',
+11 silly cache add      shortcut: 'github:yanivgal/UnityNpmTest',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/yanivgal/UnityNpmTest/master/package.json' } }
+12 verbose addRemoteGit caching git+ssh://git@github.com:yanivgal/UnityNpmTest.git
+13 verbose addRemoteGit git+ssh://git@github.com/yanivgal/UnityNpmTest.git is a repository hosted by github
+14 silly tryClone cloning git+ssh://git@github.com/yanivgal/UnityNpmTest.git via git+ssh://git@github.com/yanivgal/UnityNpmTest.git
+15 verbose tryClone git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75 not in flight; caching
+16 verbose correctMkdir /Users/yanivgal/.npm/_git-remotes correctMkdir not in flight; initializing
+17 info git [ 'config', '--get', 'remote.origin.url' ]
+18 silly validateExistingRemote git+ssh://git@github.com/yanivgal/UnityNpmTest.git remote.origin.url: ssh://git@github.com/yanivgal/UnityNpmTest.git
+19 verbose validateExistingRemote git+ssh://git@github.com/yanivgal/UnityNpmTest.git is updating existing cached remote /Users/yanivgal/.npm/_git-remotes/git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75
+20 info git [ 'fetch', '-a', 'origin' ]
+21 verbose updateRemote git fetch -a origin (ssh://git@github.com/yanivgal/UnityNpmTest.git)
+22 verbose correctMkdir /Users/yanivgal/.npm/_git-remotes correctMkdir not in flight; initializing
+23 verbose setPermissions git+ssh://git@github.com/yanivgal/UnityNpmTest.git set permissions on /Users/yanivgal/.npm/_git-remotes/git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75
+24 verbose resolveHead git+ssh://git@github.com/yanivgal/UnityNpmTest.git original treeish: master
+25 info git [ 'rev-list', '-n1', 'master' ]
+26 silly resolveHead git+ssh://git@github.com/yanivgal/UnityNpmTest.git resolved treeish: 95fbb02eba36c2750236ff04a86469892263596d
+27 verbose resolveHead git+ssh://git@github.com/yanivgal/UnityNpmTest.git resolved Git URL: git+ssh://git@github.com/yanivgal/UnityNpmTest.git#95fbb02eba36c2750236ff04a86469892263596d
+28 silly resolveHead Git working directory: /var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88468-eb43f741/git-cache-6207aa21/95fbb02eba36c2750236ff04a86469892263596d
+29 info git [ 'clone',
+29 info git   '/Users/yanivgal/.npm/_git-remotes/git-ssh-git-github-com-yanivgal-UnityNpmTest-git-85741d75',
+29 info git   '/var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88468-eb43f741/git-cache-6207aa21/95fbb02eba36c2750236ff04a86469892263596d' ]
+30 verbose cloneResolved git+ssh://git@github.com/yanivgal/UnityNpmTest.git clone Cloning into '/var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88468-eb43f741/git-cache-6207aa21/95fbb02eba36c2750236ff04a86469892263596d'...
+30 verbose cloneResolved done.
+31 info git [ 'checkout', '95fbb02eba36c2750236ff04a86469892263596d' ]
+32 verbose checkoutTreeish git+ssh://git@github.com/yanivgal/UnityNpmTest.git checkout Note: checking out '95fbb02eba36c2750236ff04a86469892263596d'.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+32 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+32 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+32 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish   git checkout -b <new-branch-name>
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish HEAD is now at 95fbb02... Update package.json
+33 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+34 verbose updateSubmodules git+ssh://git@github.com/yanivgal/UnityNpmTest.git submodule update
+35 verbose addLocalDirectory /Users/yanivgal/.npm/UnitNpmTest/0.0.1/package.tgz not in flight; packing
+36 verbose correctMkdir /Users/yanivgal/.npm correctMkdir not in flight; initializing
+37 verbose tar pack [ '/Users/yanivgal/.npm/UnitNpmTest/0.0.1/package.tgz',
+37 verbose tar pack   '/var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88468-eb43f741/git-cache-6207aa21/95fbb02eba36c2750236ff04a86469892263596d' ]
+38 verbose tarball /Users/yanivgal/.npm/UnitNpmTest/0.0.1/package.tgz
+39 verbose folder /var/folders/g0/s4mqck490tg30prq8k93xqbw0000gn/T/npm-88468-eb43f741/git-cache-6207aa21/95fbb02eba36c2750236ff04a86469892263596d
+40 verbose addLocalTarball adding from inside cache /Users/yanivgal/.npm/UnitNpmTest/0.0.1/package.tgz
+41 verbose correctMkdir /Users/yanivgal/.npm correctMkdir not in flight; initializing
+42 verbose addRemoteGit data._from: git+ssh://git@github.com/yanivgal/UnityNpmTest.git
+43 verbose addRemoteGit data._resolved: git+ssh://git@github.com/yanivgal/UnityNpmTest.git#95fbb02eba36c2750236ff04a86469892263596d
+44 silly cache afterAdd UnitNpmTest@0.0.1
+45 verbose afterAdd /Users/yanivgal/.npm/UnitNpmTest/0.0.1/package/package.json not in flight; writing
+46 verbose correctMkdir /Users/yanivgal/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /Users/yanivgal/.npm/UnitNpmTest/0.0.1/package/package.json written
+48 silly install normalizeTree
+49 silly loadCurrentTree Finishing
+50 silly loadIdealTree Starting
+51 silly install loadIdealTree
+52 silly cloneCurrentTree Starting
+53 silly install cloneCurrentTreeToIdealTree
+54 silly cloneCurrentTree Finishing
+55 silly loadShrinkwrap Starting
+56 silly install loadShrinkwrap
+57 silly loadShrinkwrap Finishing
+58 silly loadAllDepsIntoIdealTree Starting
+59 silly install loadAllDepsIntoIdealTree
+60 silly resolveWithNewModule UnitNpmTest@0.0.1 checking installable status
+61 silly loadAllDepsIntoIdealTree Finishing
+62 silly idealTree:prePrune unitynpmtest@0.0.1
+62 silly idealTree:prePrune └── UnitNpmTest@0.0.1
+63 silly loadIdealTree Finishing
+64 silly currentTree unitynpmtest@0.0.1
+65 silly idealTree unitynpmtest@0.0.1
+65 silly idealTree └── UnitNpmTest@0.0.1
+66 silly generateActionsToTake Starting
+67 silly install generateActionsToTake
+68 silly generateActionsToTake Finishing
+69 silly diffTrees action count 1
+70 silly diffTrees add UnitNpmTest@0.0.1
+71 silly decomposeActions action count 8
+72 silly decomposeActions fetch UnitNpmTest@0.0.1
+73 silly decomposeActions extract UnitNpmTest@0.0.1
+74 silly decomposeActions test UnitNpmTest@0.0.1
+75 silly decomposeActions preinstall UnitNpmTest@0.0.1
+76 silly decomposeActions build UnitNpmTest@0.0.1
+77 silly decomposeActions install UnitNpmTest@0.0.1
+78 silly decomposeActions postinstall UnitNpmTest@0.0.1
+79 silly decomposeActions finalize UnitNpmTest@0.0.1
+80 silly executeActions Starting
+81 silly install executeActions
+82 silly doSerial global-install 0
+83 silly doParallel fetch 1
+84 verbose correctMkdir /Users/yanivgal/.npm/_locks correctMkdir not in flight; initializing
+85 verbose lock using /Users/yanivgal/.npm/_locks/staging-f325990f83651ae1.lock for /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging
+86 silly doParallel extract 1
+87 silly extract UnitNpmTest@0.0.1
+88 verbose unbuild node_modules/.staging/UnitNpmTest-ccb9df23
+89 silly gentlyRm /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23 is being purged from base /Users/yanivgal/Unity/UnityNpmTest
+90 verbose gentlyRm don't care about contents; nuking /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23
+91 verbose tar unpack /Users/yanivgal/.npm/UnitNpmTest/0.0.1/package.tgz
+92 verbose tar unpacking to /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23
+93 silly gentlyRm /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23 is being purged
+94 verbose gentlyRm don't care about contents; nuking /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23
+95 silly gunzTarPerm modes [ '755', '644' ]
+96 silly gunzTarPerm extractEntry package.json
+97 silly gentlyRm /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23/node_modules is being purged
+98 verbose gentlyRm don't care about contents; nuking /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23/node_modules
+99 silly doParallel preinstall 1
+100 silly preinstall UnitNpmTest@0.0.1 /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23
+101 info lifecycle UnitNpmTest@0.0.1~preinstall: UnitNpmTest@0.0.1
+102 silly lifecycle UnitNpmTest@0.0.1~preinstall: no script for preinstall, continuing
+103 silly doReverseSerial remove 0
+104 silly doSerial move 0
+105 silly doSerial finalize 1
+106 silly finalize /Users/yanivgal/Unity/UnityNpmTest/node_modules/UnitNpmTest
+107 silly doSerial build 1
+108 silly build UnitNpmTest@0.0.1
+109 info linkStuff UnitNpmTest@0.0.1
+110 silly linkStuff UnitNpmTest@0.0.1 has /Users/yanivgal/Unity/UnityNpmTest/node_modules as its parent node_modules
+111 verbose linkBins UnitNpmTest@0.0.1
+112 verbose linkMans UnitNpmTest@0.0.1
+113 silly doSerial global-link 0
+114 silly doParallel update-linked 0
+115 silly doSerial install 1
+116 silly install UnitNpmTest@0.0.1 /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23
+117 info lifecycle UnitNpmTest@0.0.1~install: UnitNpmTest@0.0.1
+118 silly lifecycle UnitNpmTest@0.0.1~install: no script for install, continuing
+119 silly doSerial postinstall 1
+120 silly postinstall UnitNpmTest@0.0.1 /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging/UnitNpmTest-ccb9df23
+121 info lifecycle UnitNpmTest@0.0.1~postinstall: UnitNpmTest@0.0.1
+122 verbose lifecycle UnitNpmTest@0.0.1~postinstall: unsafe-perm in lifecycle true
+123 verbose lifecycle UnitNpmTest@0.0.1~postinstall: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/yanivgal/Unity/UnityNpmTest/node_modules/UnitNpmTest/node_modules/.bin:/Users/yanivgal/Unity/UnityNpmTest/node_modules/.bin:/usr/local/Cellar/node/5.9.0/bin:/usr/local/sbin:/usr/local/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+124 verbose lifecycle UnitNpmTest@0.0.1~postinstall: CWD: /Users/yanivgal/Unity/UnityNpmTest/node_modules/UnitNpmTest
+125 silly lifecycle UnitNpmTest@0.0.1~postinstall: Args: [ '-c', 'node scripts/postinstall.js' ]
+126 silly lifecycle UnitNpmTest@0.0.1~postinstall: Returned: code: 1  signal: null
+127 info lifecycle UnitNpmTest@0.0.1~postinstall: Failed to exec postinstall script
+128 verbose unlock done using /Users/yanivgal/.npm/_locks/staging-f325990f83651ae1.lock for /Users/yanivgal/Unity/UnityNpmTest/node_modules/.staging
+129 silly rollbackFailedOptional Starting
+130 silly rollbackFailedOptional Finishing
+131 silly runTopLevelLifecycles Starting
+132 silly runTopLevelLifecycles Finishing
+133 silly install printInstalled
+134 verbose stack Error: UnitNpmTest@0.0.1 postinstall: `node scripts/postinstall.js`
+134 verbose stack Exit status 1
+134 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:239:16)
+134 verbose stack     at emitTwo (events.js:100:13)
+134 verbose stack     at EventEmitter.emit (events.js:185:7)
+134 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+134 verbose stack     at emitTwo (events.js:100:13)
+134 verbose stack     at ChildProcess.emit (events.js:185:7)
+134 verbose stack     at maybeClose (internal/child_process.js:850:16)
+134 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+135 verbose pkgid UnitNpmTest@0.0.1
+136 verbose cwd /Users/yanivgal/Unity/UnityNpmTest
+137 error Darwin 15.4.0
+138 error argv "/usr/local/Cellar/node/5.9.0/bin/node" "/usr/local/bin/npm" "install" "git+ssh://git@github.com:yanivgal/UnityNpmTest.git" "--save"
+139 error node v5.9.0
+140 error npm  v3.7.3
+141 error code ELIFECYCLE
+142 error UnitNpmTest@0.0.1 postinstall: `node scripts/postinstall.js`
+142 error Exit status 1
+143 error Failed at the UnitNpmTest@0.0.1 postinstall script 'node scripts/postinstall.js'.
+143 error Make sure you have the latest version of node.js and npm installed.
+143 error If you do, this is most likely a problem with the UnitNpmTest package,
+143 error not with npm itself.
+143 error Tell the author that this fails on your system:
+143 error     node scripts/postinstall.js
+143 error You can get information on how to open an issue for this project with:
+143 error     npm bugs UnitNpmTest
+143 error Or if that isn't available, you can get their info via:
+143 error     npm owner ls UnitNpmTest
+143 error There is likely additional logging output above.
+144 verbose exit [ 1, true ]

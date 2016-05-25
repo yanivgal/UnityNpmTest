@@ -1,5 +1,5 @@
 {
-  "name": "UnitNpmTest",
+  "name": "unitynpmtest",
   "version": "0.0.1",
   "description": "UnitNpmTest Description",
   "main": "index.js",
@@ -7,20 +7,16 @@
     "type": "git",
     "url": "..."
   },
-  "files": [                
+  "files": [
     "index.js",
     "scripts",
     "src"
   ],
   "author": "...",
   "license": "MIT",
-  "bugs": {
-    "url": "..."
-  },
-  "homepage": "...",
-  "scripts": {              
+  "homepage": "http://...",
+  "scripts": {
     "postinstall": "node scripts/postinstall.js"
   },
-  "dependencies": {         
-  }
+  "dependencies": {}
 }
