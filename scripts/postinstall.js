@@ -3,7 +3,7 @@ var path = require('path');
 var ncp = require('ncp');
 
 // Paths
-var src = path.join(__dirname, '..', 'src');
+var src = path.join(__dirname, '..', 'Assets', 'src');
 var dir = path.join(__dirname, '..', '..', '..', 'Assets', 'packages');
 
 // Create folder if missing
