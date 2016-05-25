@@ -13,11 +13,11 @@ mkdirp(dir, function (err) {
     process.exit(1);
   }
 
-  // Copy files
-  // ncp(src, dir, function (err) {
-  //   if (err) {
-  //     console.error(err);
-  //     process.exit(1);
-  //   }
-  // });
+  Copy files
+  ncp(src, dir, function (err) {
+    if (err) {
+      console.error(err);
+      process.exit(1);
+    }
+  });
 });
