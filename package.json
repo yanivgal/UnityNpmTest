@@ -10,7 +10,8 @@
   "files": [
     "index.js",
     "scripts",
-    "src"
+    "src",
+    "Assets"
   ],
   "author": "...",
   "license": "MIT",
