@@ -1,0 +1,26 @@
+{
+  "name": "UnitNpmTest",
+  "version": "0.0.1",       <-- Semantic version number
+  "description": "UnitNpmTest Description",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "..."
+  },
+  "files": [                
+    "index.js",
+    "scripts",
+    "src"
+  ],
+  "author": "...",
+  "license": "MIT",
+  "bugs": {
+    "url": "..."
+  },
+  "homepage": "...",
+  "scripts": {              
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "dependencies": {         
+  }
+}
